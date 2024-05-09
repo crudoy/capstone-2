@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Yeseva One", serif;
+}
+
+p {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.section-1 {
+    /*background-color: lightgreen;*/
+    border: 1px solid black;
+    background-image: url('./images/background-pg-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.section-1 h1 {
+    font-size: 50px;
+}
+
+.section-1 p {
+    font-size: 30px;
+}
+
+.section-2 {
+    border: 1px solid black;
+    background-image: url('./images/background-pg-2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.section-2 h2 {
+    padding: 0 3em;
+    position: relative;
+    text-align: right;
+    font-size: 40px;
+}
+
+.section-2 img {
+    position: relative;
+    margin: auto 5em;
+    padding: 0 4em;
+}
+
+#welcome p {
+    margin-top: 100px;
+    position: relative;
+    text-align: right;
+    margin: 100px 4em 0 2em;
+    padding: 0 4em;
+    width: 600px;
+}
+
+.section-3 {
+    border: 1px solid black;
+    background-image: url('./images/background-pg-3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.section-3 h2 {
+    font-size: 40px;
+}
+
+.section-3 .feature .col {
+    display: inline-flex;
+    position: relative;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section-4 {
+    border: 1px solid black;
+    background-image: url('./images/background-pg-4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+footer {
+    position: relative;
+    vertical-align: middle;
+}
